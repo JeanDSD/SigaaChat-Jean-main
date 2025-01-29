@@ -1,6 +1,6 @@
 services:
  sigachat_app:
-  image: Lucas-Cardoso-Gomes/SigaaChat-2.0
+  image: proffernando/sigachat
   ports:
   - "8080:8080"
   depends_on:
@@ -10,5 +10,5 @@ services:
   image: postgres:17.2
   environment:
    POSTGRES_USER: postgres
-   POSTGRES_PASSWORD: postgres
-   POSTGRES_DB: SigaaChat
+   POSTGRES_PASSWORD: aula1112
+   POSTGRES_DB: sigachat
